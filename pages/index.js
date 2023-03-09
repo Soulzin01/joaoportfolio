@@ -4,7 +4,7 @@ import {AiFillLinkedin, AiFillInstagram, AiOutlineWhatsApp} from 'react-icons/ai
 import Image from 'next/image';
 import desjoao from "../public/joaoImg.png";
 import iconDesign from '../public/iconDesign.png';
-import dev from '../public/dev.png';
+import Dev from '../public/Dev.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -126,7 +126,7 @@ export default function Home() {
       <footer>
             <div className='text-center bg-slate-900 p-10'>
                   <p className='text-slate-500'>
-                    <Image className='mx-auto' src={dev} width={25} height={25}/>&#169; Todos os direitos reservados. 
+                    <Image className='mx-auto' src={Dev} width={25} height={25}/>&#169; Todos os direitos reservados. 
                   </p>
             </div>
           </footer>
