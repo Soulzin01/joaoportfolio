@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
       </Head>
-      <main className='bg-slate-800 px-10 min-h-screen '> {/*dark:bg-slate-200 transition-all duration-300 */}
+      <main className='bg-slate-800 px-10 min-h-screen dark:bg-slate-200 transition-all duration-300'>
           <section className=''>
             <nav className='py-10 mb-12 flex justify-between'>
               <div className='before:contents-["CT"] hover:after:contents-["Conjunto Técnico"]'>
