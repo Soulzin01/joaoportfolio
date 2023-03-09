@@ -25,6 +25,7 @@ module.exports = {
         'gaiat-blue':'#14213D',
         'boyzin-blue':'#2C67F2',
         'soda-orange':'#FCA311',
+        'chuuch-gray':'#E5E5E5',
       }
     },
   },
