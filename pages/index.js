@@ -17,7 +17,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
       </Head>
-      <main className='bg-slate-800 px-10 min-h-screen dark:bg-slate-200 transition-all duration-300 w-full h-full m-0 overflow-hidden'>
+      <main className='bg-slate-800 px-10 min-h-screen dark:bg-slate-200 transition-all duration-300 w-full
+      h-full m-0 overflow-hidden'>
           <section className=''>
             <nav className='py-10 mb-12 flex justify-between'>
                 <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue '>CT</h1>
