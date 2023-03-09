@@ -6,6 +6,7 @@ import desjoao from "../public/joaoImg.png";
 import iconDesign from '../public/iconDesign.png';
 import Dev from '../public/Dev.svg';
 import { useState } from 'react';
+import CT from '../public/ct.png';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +22,8 @@ export default function Home() {
       h-full m-0 overflow-hidden'>
           <section className=''>
             <nav className='py-10 mb-12 flex justify-between'>
-                <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue '>CT</h1>
+                {/* <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue '>CT</h1> */}
+                <Image src={CT} width={55} height={55}/>
                 <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue max-md:hidden'>Conjunto Tecnico</h1>
               <ul className='flex items-center'>
                 <li>
