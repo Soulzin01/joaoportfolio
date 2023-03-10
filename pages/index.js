@@ -74,7 +74,8 @@ export default function Home() {
                 </p>
             </div>
             <div className="lg:flex gap-10 justify-between">
-              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 hover:shadow transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray">
+              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 hover:shadow
+              hover:shadow-slate-500 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray hover:">
                 <Image className='relative mx-auto ' src={iconDesign} width={150} height={150} alt='ícone do card de designs'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Designs Profissionais
@@ -91,7 +92,8 @@ export default function Home() {
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Corel Draw</p>
               </div>
 
-              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray">
+              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105
+              transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray hover:shadow hover:shadow-slate-500">
                 <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Designs Profissionais
@@ -99,7 +101,7 @@ export default function Home() {
                 <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
                   Criação de designs elegantes que atenderão às suas necessidades.
                 </p>
-                <h4 className="text-teal-300 py-4">
+                <h4 className="text-teal-300 py-4 dark:text-teal-800">
                   Ferramentas que uso:
                 </h4>
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Photoshop</p>
@@ -108,7 +110,8 @@ export default function Home() {
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Corel Draw</p>
               </div>
 
-              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray">
+              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 transition-all
+              duration-300 cursor-default select-none dark:bg-chuuch-gray hover:scale-105 hover:shadow hover:shadow-slate-500">
                 <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Designs Profissionais
@@ -116,7 +119,7 @@ export default function Home() {
                 <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
                   Criação de designs elegantes que atenderão às suas necessidades.
                 </p>
-                <h4 className="text-teal-300 py-4">
+                <h4 className="text-teal-300 py-4 dark:text-teal-800">
                   Ferramentas que uso:
                 </h4>
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Photoshop</p>
