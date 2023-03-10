@@ -130,7 +130,7 @@ export default function Home() {
       <footer>
             <div className='text-center bg-slate-900 p-3 cursor-default select-none min-h-fit'>
                   <p className='text-slate-400'>
-                    <div className='relative rounded-full w-7 h-7 overflow-clip mx-auto border-slate-50 border-2'>
+                    <div className='relative rounded-full w-7 h-7 overflow-clip mx-auto border-slate-50 border-2' title='Soulzin Dev'>
                     <Image className='bg-white mx-auto object-cover' src={Dev} width={25} height={25} alt='Logo do desenvolvedor'/>
                     </div>
                     &#169; Todos os direitos reservados. 
