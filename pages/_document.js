@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="pt-br">
       <Head />
-      <body className='scrollbar-thin scrollbar-track-slate-600 scrollbar-thumb-slate-700'>
+      <body className='scrollbar-thin scrollbar-track-slate-600 scrollbar-thumb-slate-700 scrollbar-track-rounded-xl'>
         <Main />
         <NextScript />
       </body>

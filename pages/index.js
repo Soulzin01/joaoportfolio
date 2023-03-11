@@ -23,7 +23,7 @@ export default function Home() {
           <section className=''>
             <nav className='py-10 mb-12 flex justify-between'>
                 {/* <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue '>CT</h1> */}
-                <Image src={CT} width={55} height={55}/>
+                <Image src={CT} width={55} height={55} alt='Ícone do CT'/>
                 <h1 className='text-xl text-slate-200 font-centauri cursor-default select-none dark:text-gaiat-blue max-md:hidden'>Conjunto Tecnico</h1>
               <ul className='flex items-center'>
                 <li>
@@ -112,26 +112,26 @@ export default function Home() {
             </div>
           </section>
           <section>
-          <div className='max-w-3xl mx-auto py-10 flex justify-between'>
+          <div className='max-w-3xl mx-auto py-10 lg:justify-between lg:flex max-lsm:inline-flex'>
               <div className='my-auto'>
-                <h1 className='text-6xl text-slate-50 font-burtons text-center font-medium w-56 dark:text-gaiat-blue'>
+                <h1 className='lg:text-6xl md:text-3xl sm:text-xl lsm:mx-auto text-slate-50 font-burtons text-center font-medium w-56 md:w-64 dark:text-gaiat-blue'>
                   Entre em contato<span className='text-teal-300 font-bold dark:text-soda-orange'>:</span>
                 </h1>
               </div>
               <div className='block'>
-                <div className='py-6'>
+                <div className='py-6 w-72 lsm:mx-auto'>
                   <label className='relative'>
                     <input type='email' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
                     focus:border-teal-200 transition duration-200' placeholder='Nome'/>
                   </label>
                 </div>
-                <div className='py-6'>
+                <div className='py-6 w-72 lsm:mx-auto'>
                   <label className='relative'>
                     <input type='text' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
                     focus:border-slate-900 transition duration-200' placeholder='Email'/>
                   </label>
                 </div>
-                <div className='py-6'>
+                <div className='py-6 w-72 lsm:mx-auto'>
                   <label className='relative'>
                     <input type='text' className='w-72 h-16 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
                     focus:border-slate-900 transition duration-200' placeholder='Mensagem'/>
