@@ -73,9 +73,9 @@ export default function Home() {
                  documentos entre outros).
                 </p>
             </div>
-            <div className="lg:flex gap-10 justify-between">
+            <div className="gap-10 justify-evenly items-start lg:flex">
               <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 hover:shadow
-              hover:shadow-slate-500 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray hover:">
+              hover:shadow-slate-500 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray flex-none">
                 <Image className='relative mx-auto ' src={iconDesign} width={150} height={150} alt='ícone do card de designs'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Designs Profissionais
@@ -86,58 +86,67 @@ export default function Home() {
                 <h4 className="text-teal-300 py-4 dark:text-teal-800">
                   Ferramentas que uso:
                 </h4>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Photoshop</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Adobe Illustrator</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Canva</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Corel Draw</p>
-              </div>
-
-              <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105
-              transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray hover:shadow hover:shadow-slate-500">
-                <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone'/>
-                <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
-                  Designs Profissionais
-                </h3>
-                <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
-                  Criação de designs elegantes que atenderão às suas necessidades.
-                </p>
-                <h4 className="text-teal-300 py-4 dark:text-teal-800">
-                  Ferramentas que uso:
-                </h4>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Photoshop</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Adobe Illustrator</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Canva</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Corel Draw</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Photoshop &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Adobe Illustrator &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Canva &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Corel Draw &#x2022;</p>
               </div>
 
               <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 transition-all
-              duration-300 cursor-default select-none dark:bg-chuuch-gray hover:scale-105 hover:shadow hover:shadow-slate-500">
+              duration-300 cursor-default select-none dark:bg-chuuch-gray hover:scale-105 hover:shadow hover:shadow-slate-500 flex-none">
                 <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
-                  Designs Profissionais
+                  Manutenção Preventiva
                 </h3>
                 <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
-                  Criação de designs elegantes que atenderão às suas necessidades.
+                  Diagnóstico de problemas do seu computador ou notebook.
                 </p>
                 <h4 className="text-teal-300 py-4 dark:text-teal-800">
-                  Ferramentas que uso:
+                  Serviços que ofereço:
                 </h4>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Photoshop</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Adobe Illustrator</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Canva</p>
-                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>Corel Draw</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Formatação &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Limpeza &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Instalação de Programas essenciais &#x2022;</p>
+                <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Diagnóstico e Manutenção &#x2022;</p>
+              </div>
+            </div>
+          </section>
+          <section>
+          <div className='max-w-3xl mx-auto py-10 flex justify-between'>
+              <div className='my-auto'>
+                <h1 className='text-6xl text-slate-50 font-burtons text-center font-medium w-56 dark:text-gaiat-blue'>
+                  Entre em contato<span className='text-teal-300 font-bold dark:text-soda-orange'>:</span>
+                </h1>
+              </div>
+              <div className='block'>
+                <div className='py-6'>
+                  <label className='relative'>
+                    <input type='email' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    focus:border-teal-200 transition duration-200' placeholder='Nome'/>
+                  </label>
+                </div>
+                <div className='py-6'>
+                  <label className='relative'>
+                    <input type='text' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    focus:border-slate-900 transition duration-200' placeholder='Email'/>
+                  </label>
+                </div>
+                <div className='py-6'>
+                  <label className='relative'>
+                    <input type='text' className='w-72 h-16 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    focus:border-slate-900 transition duration-200' placeholder='Mensagem'/>
+                  </label>
+                </div>
               </div>
             </div>
           </section>
       </main>
       <footer>
-            <div className='text-center bg-slate-900 p-3 cursor-default select-none min-h-fit'>
-                  <p className='text-slate-400'>
+            <div className='text-center text-slate-400 bg-slate-900 p-3 cursor-default select-none min-h-fit'>
                     <div className='relative rounded-full w-7 h-7 overflow-clip mx-auto border-slate-50 border-2' title='Soulzin Dev'>
                     <Image className='bg-white mx-auto object-cover' src={Dev} width={25} height={25} alt='Logo do desenvolvedor'/>
                     </div>
                     &#169; Todos os direitos reservados. 
-                  </p>
             </div>
           </footer>
     </div>
