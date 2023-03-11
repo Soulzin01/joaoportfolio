@@ -28,7 +28,7 @@ module.exports = {
         'chuuch-gray':'#E5E5E5',
       },
       screens: {
-        'lsm': '480px',
+        'lsm': '320px',
       }
     },
   },

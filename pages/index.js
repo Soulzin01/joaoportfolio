@@ -54,7 +54,7 @@ export default function Home() {
 
               </div>
 
-              <div className="relative rounded-full w-72 h-72 overflow-clip mx-auto mt-10 border-slate-600 border-4">
+              <div className="relative rounded-full w-72 h-72 overflow-clip mx-auto mt-10 border-slate-600 border-4 lsm:w-60 lsm:h-60">
                 <Image className='object-cover cursor-default select-none' src={desjoao} sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw" priority fill alt='João Emanuel'/>
@@ -76,14 +76,14 @@ export default function Home() {
             <div className="gap-10 justify-evenly items-start lg:flex">
               <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 hover:scale-105 hover:shadow
               hover:shadow-slate-500 transition-all duration-300 cursor-default select-none dark:bg-chuuch-gray flex-none">
-                <Image className='relative mx-auto ' src={iconDesign} width={150} height={150} alt='ícone do card de designs'/>
+                <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone do card de designs'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Designs Profissionais
                 </h3>
                 <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
                   Criação de designs elegantes que atenderão às suas necessidades.
                 </p>
-                <h4 className="text-teal-300 py-4 dark:text-teal-800">
+                <h4 className="text-teal-300 font-medium py-4 dark:text-teal-800">
                   Ferramentas que uso:
                 </h4>
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Photoshop &#x2022;</p>
@@ -101,7 +101,7 @@ export default function Home() {
                 <p className="text-lg text-slate-50 dark:text-gaiat-blue duration-300">
                   Diagnóstico de problemas do seu computador ou notebook.
                 </p>
-                <h4 className="text-teal-300 py-4 dark:text-teal-800">
+                <h4 className="text-teal-300 font-medium py-4 dark:text-teal-800">
                   Serviços que ofereço:
                 </h4>
                 <p className='text-slate-50 font-medium py-1 dark:text-gaiat-blue duration-300'>&#x2022; Formatação &#x2022;</p>
@@ -112,29 +112,30 @@ export default function Home() {
             </div>
           </section>
           <section>
-          <div className='max-w-3xl mx-auto py-10 lg:justify-between lg:flex max-lsm:inline-flex'>
+          <div className='max-w-3xl mx-auto py-10 lg:justify-between lg:flex max-lsm:inline-flex transition-all
+              duration-300 cursor-default select-none'>
               <div className='my-auto'>
                 <h1 className='lg:text-6xl md:text-3xl sm:text-xl lsm:mx-auto text-slate-50 font-burtons text-center font-medium w-56 md:w-64 dark:text-gaiat-blue'>
                   Entre em contato<span className='text-teal-300 font-bold dark:text-soda-orange'>:</span>
                 </h1>
               </div>
               <div className='block'>
-                <div className='py-6 w-72 lsm:mx-auto'>
+                <div className='py-6 w-80 lsm:mx-auto lsm:w-56'>
                   <label className='relative'>
-                    <input type='email' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    <input type='email' className='w-80 h-12 px-6 lsm:w-56 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
                     focus:border-teal-200 transition duration-200' placeholder='Nome'/>
                   </label>
                 </div>
-                <div className='py-6 w-72 lsm:mx-auto'>
+                <div className='py-6 w-80 lsm:mx-auto lsm:w-56'>
                   <label className='relative'>
-                    <input type='text' className='w-72 h-12 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
-                    focus:border-slate-900 transition duration-200' placeholder='Email'/>
+                    <input type='text' className='w-80 h-12 px-6 lsm:w-56 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    focus:border-teal-200 transition duration-200' placeholder='Email'/>
                   </label>
                 </div>
-                <div className='py-6 w-72 lsm:mx-auto'>
+                <div className='py-6 w-80 lsm:mx-auto lsm:w-56'>
                   <label className='relative'>
-                    <input type='text' className='w-72 h-16 px-6 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
-                    focus:border-slate-900 transition duration-200' placeholder='Mensagem'/>
+                    <input type='text' className='w-80 h-16 px-6 lsm:w-56 text-md outline-none text-white bg-slate-700 border-2 rounded-lg border-white border-opacity-60
+                    focus:border-teal-200 transition duration-200' placeholder='Mensagem'/>
                   </label>
                 </div>
               </div>
