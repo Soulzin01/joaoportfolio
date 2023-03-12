@@ -55,7 +55,8 @@ export default function Home() {
               </div>
 
               <div className="relative rounded-full w-72 h-72 overflow-clip mx-auto mt-10 border-slate-600 border-4 lsm:w-60 lsm:h-60">
-                <Image className='object-cover cursor-default select-none' src={desjoao} sizes="(max-width: 768px) 100vw,
+                <Image className='object-cover cursor-default select-none' src={desjoao} sizes="(max-width: 320px) 25vw,
+              (max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw" priority fill alt='João Emanuel'/>
               </div>
