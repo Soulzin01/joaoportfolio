@@ -5,6 +5,7 @@ import Image from 'next/image';
 import desjoao from "../public/joaoImg.png";
 import iconDesign from '../public/iconDesign.png';
 import Dev from '../public/Dev.svg';
+import iconFix from '../public/iconFix.svg';
 import { useState } from 'react';
 import CT from '../public/ct.png';
 
@@ -95,7 +96,7 @@ export default function Home() {
 
               <div className="text-center bg-slate-900 shadow-slate-500 shadow rounded-xl my-10 mx-2 p-10 transition-all
               duration-300 cursor-default select-none dark:bg-chuuch-gray hover:scale-105 hover:shadow hover:shadow-slate-500 flex-none">
-                <Image className='relative mx-auto' src={iconDesign} width={150} height={150} alt='ícone'/>
+                <Image className='relative mx-auto' src={iconFix} width={150} height={150} alt='ícone'/>
                 <h3 className="text-1xl font-bold pt-6 pb-2 text-slate-50 dark:text-gaiat-blue duration-300">
                   Manutenção Preventiva
                 </h3>
