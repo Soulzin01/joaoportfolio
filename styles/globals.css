@@ -31,7 +31,7 @@ a {
 
 @font-face {
   font-family: "burtons";
-  src: url('../public/Burtons.otf');
+  src: url("../public/Burtons.otf");
 }
 
 @font-face {
@@ -39,7 +39,7 @@ a {
   src: url("../public/Acumin-RPro.otf");
 }
 
-@font-face{
+@font-face {
   font-family: "centauri";
   src: url("../public/Centauri.otf");
 }
